@@ -4,6 +4,7 @@ body {
     display:flex;
     flex-direction:column;
     justify-content:space-between;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .first-section {
@@ -11,6 +12,7 @@ body {
     flex-direction:column;
     background-color:#1F2937;
     color:white;
+    padding-bottom:100px;
     
     
     
@@ -19,9 +21,9 @@ body {
 
 .header {
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex:1;
-    margin-top:10px;
+    margin-top:20px;
 }
 
 ul {
@@ -35,36 +37,70 @@ ul {
     list-style-type: none;
 }
 
+.logo {
+    color:#f9faf8;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.header-links {
+    color:#E5E7EB;
+    font-size:18px;
+}
 
 
 .middle-text {
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
+    gap:100px;
     flex:1;
-    margin-top:60px;
+    margin-top:90px;
 
    
     
 }
 
+.title {
+    font-size: 48px ;
+    font-weight: 800;
+    color:#f9faf8;
+}
+
 .subtitle {
-    flex-wrap:wrap;
-    width:380px;
+    width:300px;
+    font-size:18px;
+    color:#E5E7EB;
 }
 
 .right-side {
     display:flex;
     align-items:center;
     justify-content:center;
-    width:220px;
+    width:410px;
     background-color: gray;
+    padding:100px;
     
 }
 
 .left-side {
     display:flex;
     flex-direction:column;
-    width:300px;
+    width:350px;
+    
+    
+}
+
+button {
+    align-self:flex-start;
+    margin-top: 15px;
+    padding:25px;
+    padding-top:6px;
+    padding-bottom:6px;
+    border:2px;
+    border-radius:5px;
+    background-color:#3882f6;
+    color:#f9faf8;
+    font-weight:bold;
     
 }
 
