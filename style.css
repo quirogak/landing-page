@@ -2,12 +2,57 @@ body {
     margin:0;
     min-height:100vh;
     display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.first-section {
+    display:flex;
+    flex-direction:column;
+    background-color:#1F2937;
+    color:white;
+    
+    
+    
 }
 
 .header {
     display:flex;
+    justify-content:space-around;
+    flex:1;
+    margin-top:10px;
 }
 
-.header-links {
-    display:flex;
+ul {
+    padding:0;
+    margin:0;
 }
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin:18px;
+    
+}
+
+.middle-text {
+    display:flex;
+    justify-content:space-around;
+    flex:1;
+    margin-top:60px;
+    
+}
+
+.subtitle {
+    flex-wrap:wrap;
+    width:380px;
+}
+
+.right-side {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+
