@@ -149,3 +149,45 @@ button {
     font-size:19px;
     color:#808080;
 }
+
+.quote {
+    display:flex;
+    width:830px;
+    height:200px;
+    justify-content: center;
+    align-items:center;
+    font-size:36px;
+    font-style:italic;
+    padding:0;
+    flex-direction:column;
+    font-weight:lighter;
+
+    
+}
+
+.third-section {
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items:center;
+    padding:60px;
+    color:#1F2937;
+    
+
+}
+
+.quote-author {
+    display:flex;
+    align-self:flex-end;
+    font-size:24px;
+    font-weight:bold;
+    margin-right:65px;
+    font-style:normal;
+
+    
+    
+
+
+    
+}
