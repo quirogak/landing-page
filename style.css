@@ -14,11 +14,12 @@ body {
     
     
     
+    
 }
 
 .header {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex:1;
     margin-top:10px;
 }
@@ -26,20 +27,23 @@ body {
 ul {
     padding:0;
     margin:0;
+    display:flex;
+
+    justify-content:space-around;
+    gap:15px;
+    margin-left:95px;
+    list-style-type: none;
 }
 
-li {
-    list-style-type: none;
-    display: inline;
-    margin:18px;
-    
-}
+
 
 .middle-text {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     flex:1;
     margin-top:60px;
+
+   
     
 }
 
@@ -52,7 +56,16 @@ li {
     display:flex;
     align-items:center;
     justify-content:center;
+    width:220px;
+    background-color: gray;
+    
 }
 
+.left-side {
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    
+}
 
 
