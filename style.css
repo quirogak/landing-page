@@ -240,3 +240,14 @@ button {
     align-items: center;
 }
 
+/*Footer*/
+
+.footer {
+    background-color:#1F2937;
+    display:flex;
+    color:#f9faf8;
+    height:70px;
+    align-items:center;
+    justify-content:center;
+
+}
