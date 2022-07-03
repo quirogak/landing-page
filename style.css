@@ -37,6 +37,14 @@ ul {
     list-style-type: none;
 }
 
+a:link{
+    text-decoration:none;
+}
+
+a {
+    color:#f9faf8;
+}
+
 .logo {
     color:#f9faf8;
     font-size:24px;
@@ -150,6 +158,8 @@ button {
     color:#808080;
 }
 
+/*Third section*/
+
 .quote {
     display:flex;
     width:830px;
@@ -164,6 +174,7 @@ button {
 
     
 }
+
 
 .third-section {
     background-color:#E5E7EB;
@@ -184,10 +195,48 @@ button {
     font-weight:bold;
     margin-right:65px;
     font-style:normal;
-
-    
-    
-
-
     
 }
+
+/*Fourth section*/
+
+.fourth-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.blue-box {
+    display:flex;
+    background-color:#3882f6;
+    width: 900px;
+    height: 120px;
+    margin:100px;
+    border-radius: 10px;
+    gap:90px;
+    align-items:center;
+    justify-content:center;
+    color:#E5E7EB;
+    margin-right:120px;
+    
+    
+}
+
+.title3 {
+    font-weight:bold;
+    font-size:18px;
+}
+
+.button2 {
+    margin-top:0px;
+    border: 2px solid #E5E7EB;
+
+}
+
+.right-side3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
